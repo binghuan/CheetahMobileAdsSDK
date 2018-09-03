@@ -1,0 +1,49 @@
+
+framework module CheetahMobileAds {
+  umbrella header "CheetahMobileAdsHeaders.h"
+
+  export *
+  module * { export * }
+
+  link framework "Security"
+  link framework "AdSupport"
+  link framework "CoreTelephony"
+  link framework "AVFoundation"
+  link framework "CFNetwork"
+  link framework "CoreGraphics"
+  link framework "Foundation"
+  link framework "MobileCoreServices"
+  link framework "SafariServices"
+  link framework "StoreKit"
+  link framework "SystemConfiguration"
+  link framework "UIKit"
+
+  header "CheetahMobileAds.h"
+  header "CheetahMobileAdsDefines.h"
+  header "CMAAdsConfigurationManager.h"
+  header "CMABannerAdTypes.h"
+  header "CMABannerView.h"
+  header "CMABannerViewDelegate.h"
+  header "CMAGiftBoxView.h"
+  header "CMAGiftBoxViewDelegate.h"
+  header "CMAInterstitial.h"
+  header "CMAInterstitialDelegate.h"
+  header "CMAInterstitialVideoAd.h"
+  header "CMAInterstitialVideoAdDelegate.h"
+  header "CMANativeAd.h"
+  header "CMANativeAdDelegate.h"
+  header "CMANativeAdLoader.h"
+  header "CMANativeAdLoaderDelegate.h"
+  header "CMANativeAdTypes.h"
+  header "CMANativeVideoView.h"
+  header "CMANativeVideoViewDelegate.h"
+  header "CMAPosIDConfig.h"
+  header "CMARequestError.h"
+  header "CMARewardVideoAd.h"
+  header "CMARewardVideoAdDelegate.h"
+  header "CMASplashAd.h"
+  header "CMASplashAdDelegate.h"
+  header "CMAVerticalVideoAd.h"
+  header "CMAVerticalVideoAdDelegate.h"
+}
+		
